@@ -26,6 +26,27 @@ body {
  * Header
  */
 
+ .banner-wrap {
+  z-index:1 ;
+  background: url(./icons/bg_pic.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+  position: relative;
+  height: 100vh;
+  border-bottom: 8px solid #999;
+}
+.overlay{
+  z-index:-1;
+  height: 100%;
+  width: 100%;
+  background: black;
+  position:absolute;
+  opacity: 60%;
+  top: 0;
+  
+}
+
 .nav-masthead .nav-link {
   color: rgba(255, 255, 255, .5);
   border-bottom: .25rem solid transparent;
