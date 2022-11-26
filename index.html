@@ -26,7 +26,7 @@
 <!-- BANNERWRAP -->
   <div class="banner-wrap vh-100 vw-100 d-flex flex-column align-items-center justify-content-center text-white ">
     <div class="overlay"></div>
-    <header class=" px-5 p-4 text-white fixed-top scrolling">
+    <header class=" px-5 p-3 text-white fixed-top scrolling">
       <div>
         <h3 class="float-md-start mb-0">Portfolio</h3>
         <nav class="nav nav-masthead justify-content-center float-md-end">
@@ -41,8 +41,8 @@
 
 <!-- NAME AND SURNAME -->
     <main class="text-center">
-      <h1 class="display-1 fw-bold">I am Zainab Davids</h1>
-      <span id="typed"  class="lead fw-bold"></span>
+      <h1 class="display-2 fw-semibold"><em>I am Zainab Davids</em></h1>
+      <span id="typed"  class="lead fw-normal"></span>
 
     </main>
   </div>
@@ -64,9 +64,11 @@
                     <p><strong>Phone:</strong> 084 439 2073</p>
                     <p>
                       <strong>Skills:</strong>
-                      <span class="badge rounded-pill text-bg-dark">HTML</span>
-                      <span class="badge rounded-pill text-bg-dark">CSS</span>
-                      <span class="badge rounded-pill text-bg-dark">Git</span>
+                      <span class="badge rounded-pill text-bg-dark fw-semibold">HTML</span>
+                      <span class="badge rounded-pill text-bg-dark fw-semibold">CSS</span>
+                      <span class="badge rounded-pill text-bg-dark fw-semibold">Git</span>
+                      <span class="badge rounded-pill text-bg-dark fw-semibold">JavaScript</span>
+                      
 
                     </p>
                   </div>
@@ -93,6 +95,18 @@
       <div class="container">
         <h1 class="text-center"><mark>Projects</mark></h1>
         <div class="row">
+          <!-- Tesla Portfolio -->
+          <div class="col-md-4 mt-3">
+            <div class="card">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXhFHYWq37QAMQWqmVlSP4n5kEg1kDfPfeILiYkgS3RUrYJjVhat86hJ-YGkFcld1Ojyw&usqp=CAU" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Tesla Landing Page Cone</h5>
+                <p class="card-text">Built this with HTML and CSS</p>
+                <a href="https://tesla2323clone.netlify.app/" target="_blank" class="btn btn-primary">View Website</a>
+                <a href="https://github.com/Zainab460/tesla2323clone" target="_blank" class="btn btn-outline-dark"><i class="bi bi-code-slash"></i></a>
+              </div>
+            </div>
+          </div>
           <!-- Netflix Portfolio -->
           <div class="col-md-4 mt-3">
             <div class="card">
@@ -141,8 +155,8 @@
         <div class="card-body px-5 text-center">
           <h1 class="text-center text-md-start"><mark>Let's connect!</mark></h1>
           <p class="lead">Would love to connect with fellow developers, employers looking for developers, or anyone looking to get web development done.</p>
-          <a class="fs-2" href="https://www.facebook.com/zainab.davids.33/" target="_blank" ><i class="bi bi-facebook m-3"></i></a>
-          <a class="fs-2" href="https://www.instagram.com/zainab.davids.980823/"  target="_blank"><i class="bi bi-instagram m-3"></i></a>
+          <a class="fs-2" href="https://www.facebook.com" target="_blank" ><i class="bi bi-facebook m-3"></i></a>
+          <a class="fs-2" href="https://www.instagram.com"  target="_blank"><i class="bi bi-instagram m-3"></i></a>
           <a class="fs-2" href="https://www.github.com/zainab460"  target="_blank"><i class="bi bi-github m-3"></i></a>
 
 
@@ -184,11 +198,12 @@
 
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <script>
-  var typed = new Typed('#typed', { 
-    strings: ['Fullstack Developer.', 'Always give 110% in everything.' ,'humble and kind Always.'],
+  let typed = new Typed('#typed', { 
+    strings: ['Fullstack Web Developer.', 'Always Humble and Kind.'],
     loop:true,
     typeSpeed:70,
     shuffle:true,
+
   });
 </script>
         

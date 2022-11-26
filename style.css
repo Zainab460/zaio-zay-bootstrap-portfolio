@@ -65,3 +65,6 @@ body {
   opacity: 90%;
   transition: all 0.5s;
 }
+#typed {
+  font-style: italic;
+}
