@@ -22,7 +22,7 @@
   <link href="style.css" rel="stylesheet">
 </head>
 
-<body class="bg-light">
+<body class="bg-secondary">
 <!-- BANNERWRAP -->
   <div class="banner-wrap vh-100 vw-100 d-flex flex-column align-items-center justify-content-center text-white ">
     <div class="overlay"></div>
@@ -49,21 +49,23 @@
 <!-- ABOUT ME -->
     <section id="about-us">
       <div class="container p-5">
-        <div class="card">
+        <div class="card bg-success">
           <div class="card-body">
-            <div class="row p-3">
+            <div class="row p-3 ">
               <div class="col-md-6 col-sm-12">
                 <div class="row">
-                  <div class="col-md-5">
+                  <div class=" rad col-md-5">
+                    <img src="./icons/zainab.jpg" class="img-fluid" alt="...">
                     <img src="./icons/bg_pic.jpg" class="img-fluid" alt="...">
+                    <img src="./icons/expecto.jpg" class="img-fluid" alt="...">
                   </div>
-                  <div class="col-md-7 mt-3">
-                    <p><strong>Name:</strong> Zainab Davids</p>
-                    <p><strong>Profile:</strong> Full Stack Developer</p>
-                    <p><strong>Email: </strong><a href="mailto:zainabdavids460@gmail.com">zainabdavids460@gmail.com</a></p>
-                    <p><strong>Phone:</strong> 084 439 2073</p>
+                  <div class="col-md-7">
+                    <p class="text-white-50"><strong>Name:</strong> Zainab Davids</p>
+                    <p class="text-white-50"><strong>Profile:</strong> Full Stack Developer</p>
+                    <p class="text-white-50"><strong>Email: </strong><a class="text-white-50" href="mailto:zainabdavids460@gmail.com">zainabdavids460@gmail.com</a></p>
+                    <p class="text-white-50"><strong>Phone:</strong> 084 439 2073</p>
                     <p>
-                      <strong>Skills:</strong>
+                      <strong class="text-white-50">Skills:</strong>
                       <span class="badge rounded-pill text-bg-dark fw-semibold">HTML</span>
                       <span class="badge rounded-pill text-bg-dark fw-semibold">CSS</span>
                       <span class="badge rounded-pill text-bg-dark fw-semibold">Git</span>
@@ -74,9 +76,9 @@
                   </div>
                 </div>
               </div>
-             <div class="col-md-6 mt-3">
-                <h1 class="text-center text-md-start"><mark>About Me</mark></h1>
-                <p class="lead">I regard myself as being a dilgent, responsible and hardworking individual who is more than capable to go the extra mile.
+             <div class="col-md-6 mt-2">
+                <h1 class="text-center text-md-start"><mark class="bg-dark text-white-50">About Me</mark></h1>
+                <p class="lead fw-light text-white-50">I regard myself as being a dilgent, responsible and hardworking individual who is more than capable to go the extra mile.
                   The search for challenges cannot be easily be saturated. 
                   I have endured challenging working conditions, and this reflects my dedicated and loyal character, and and indication of my approach towards life.
                   I can intepret assigned tasks ad execute these tasks with accuracy and efficiency.
@@ -93,7 +95,7 @@
 <!-- PROJECTS -->
     <section id="projects">
       <div class="container">
-        <h1 class="text-center"><mark>Projects</mark></h1>
+        <h1 class="text-center"><mark class="bg-dark text-white-50">Projects</mark></h1>
         <div class="row">
           <!-- Tesla Portfolio -->
           <div class="col-md-4 mt-3">
@@ -107,7 +109,7 @@
               </div>
             </div>
           </div>
-          <!-- Netflix Portfolio -->
+          <!-- Netflix Clone -->
           <div class="col-md-4 mt-3">
             <div class="card">
               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxUO2TCLQqOoaqB26bBiwo7i_hsK0plN6ow_ee-q1V-lZfBxkzAs1DW5cygr6JfJ-Vt6I&usqp=CAU" class="card-img-top" alt="...">
@@ -119,7 +121,7 @@
               </div>
             </div>
           </div>
-          <!-- YouTube Portfolio -->
+          <!-- YouTube Clone -->
           <div class="col-md-4 mt-3">
             <div class="card">
               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXhFHYWq37QAMQWqmVlSP4n5kEg1kDfPfeILiYkgS3RUrYJjVhat86hJ-YGkFcld1Ojyw&usqp=CAU" class="card-img-top" alt="...">
@@ -131,7 +133,7 @@
               </div>
             </div>
           </div>
-          <!-- Twitter Potfolio -->
+          <!-- Twitter Clone -->
           <div class="col-md-4 mt-3">
             <div class="card">
               <img src="http://res.cloudinary.com/ak-124210/image/upload/v1642434078/yjnzwmihmhghxkwnb6n9.png" class="card-img-top" alt="...">
@@ -143,7 +145,18 @@
               </div>
             </div>
           </div>
-
+          <!-- Google Keep Clone -->
+          <div class="col-md-4 mt-3">
+            <div class="card">
+              <img src="data:image/png;base64,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" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Google Keep Clone</h5>
+                <p class="card-text">Built this with HTML,CSS and JavaScript</p>
+                <a href="https://google-keep-clonejs.netlify.app" target="_blank" class="btn btn-primary">View Website</a>
+                <a href="https://github.com/Zainab460/google-keep-clone-DOM-JS" target="_blank" class="btn btn-outline-dark"><i class="bi bi-code-slash"></i></a>
+              </div>
+            </div>
+          </div>
           
         </div>
       </div>
@@ -151,10 +164,10 @@
 <!-- LETS CONNECT -->
     <section id="contact">
       <div class="container p-5">
-      <div class="card p-5">
+      <div class="card p-5 bg-success">
         <div class="card-body px-5 text-center">
-          <h1 class="text-center text-md-start"><mark>Let's connect!</mark></h1>
-          <p class="lead">Would love to connect with fellow developers, employers looking for developers, or anyone looking to get web development done.</p>
+          <h1 class="text-center text-md-start"><mark class="bg-dark text-white-50">Let's connect!</mark></h1>
+          <p class="lead text-white-50 fs-4">Would love to connect with fellow developers, employers looking for developers, or anyone looking to get web development done.</p>
           <a class="fs-2" href="https://www.facebook.com" target="_blank" ><i class="bi bi-facebook m-3"></i></a>
           <a class="fs-2" href="https://www.instagram.com"  target="_blank"><i class="bi bi-instagram m-3"></i></a>
           <a class="fs-2" href="https://www.github.com/zainab460"  target="_blank"><i class="bi bi-github m-3"></i></a>
