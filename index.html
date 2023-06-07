@@ -221,25 +221,16 @@
           <a class="fs-2 text-dark" href="https://www.github.com/zainab460"  target="_blank"><i class="bi bi-github m-3"></i></a>
 
 
-          <a>
-
-            
-          </a>
-          <form>
-            <div class="mb-3">
-              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter Email Adress">
-            </div>
-            <div class="mb-3">
-              <input type="text" class="form-control" id="name" placeholder="Enter Name">
-            </div>
-            <div class="mb-3">
-              <input type="text" class="form-control" id="subject" placeholder=" Enter Subject">
-            </div>
-            <div class="mb-3">
-              <textarea class="form-control" aria-label="With textarea" placeholder="Enter Message"></textarea>
-            </div>
-            <a href ="mailto:zainabdavids460@gmail.com" class="btn btn-dark">Submit</a>
-          </form>
+        
+        <form method="POST" action="https://formsubmit.co/zainabdavids460@gmail.com" enctype="multipart/form-data">
+          <input class="form-control mb-3" type="email" name="email" placeholder="Enter email">
+          <textarea class="form-control mb-3" name="message" placeholder="Enter Name Surname & Message"></textarea>
+          
+          
+          <button class="btn btn-dark submit" type="submit">Submit</button>
+      </form>
+          
+           
         </div>
       </div>
     </div>
@@ -259,6 +250,11 @@
     header.classList.toggle("scrolling", window.scrollY > 0)
   
   })
+  // const submit = document.querySelector(".submit")
+
+  // submit.addEventListener("click",(e) =>{
+  //   prevent.default();
+  // })
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
